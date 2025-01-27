@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Booking Website</title>
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Travel Booking Website</h1>
+        <!-- Navigation bar -->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Destinations</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+        <!-- Introduction Section -->
+        <section>
+            <h2>Welcome to Your Dream Travel Website</h2>
+            <p>Embark on the journey of a lifetime! Discover breathtaking destinations, curated travel packages, and personalized experiences designed just for you. From exotic escapes to tranquil retreats, your next adventure starts here—where unforgettable memories are just a click away!</p>
+        </section>
+
+        <!-- Top Destinations Section -->
+        <section class="destinations">
+            <h2>Top Destinations</h2>
+            <ul>
+                <li>
+                    <h3>Paris, France</h3>
+                    <img src="https://africa.visa.com/dam/VCOM/regional/cemea/generic-cemea/travel-with-visa/destinations/paris/marquee-travel-paris-800x450.jpg" alt="Eiffel Tower">
+                    <p>The city of love, art, and culture awaits you.</p>
+                </li>
+                <li>
+                    <h3>Tokyo, Japan</h3>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sLS7kX7wmZ8itAxtl2Fw68wHRL2PwvPUrA&s" alt="Tokyo Skyline">
+                    <p>Experience the perfect blend of tradition and modernity.</p>
+                </li>
+                <li>
+                    <h3>Bali, Indonesia</h3>
+                    <img src="https://www.indonesia.travel/content/dam/indtravelrevamp/en/destinations/revision-2019/all-revision-destination/baliH.jpg" alt="Bali Beach">
+                    <p>Relax on serene beaches or explore lush forests.</p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Travel Packages Section -->
+        <section class="travel-packages">
+            <h2>Travel Packages</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Package Name</th>
+                        <th>Destination</th>
+                        <th>Price</th>
+                        <th>Duration</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Romantic Paris Getaway</td>
+                        <td>Paris, France</td>
+                        <td>$2000</td>
+                        <td>5 Days</td>
+                    </tr>
+                    <tr>
+                        <td>Explore Tokyo</td>
+                        <td>Tokyo, Japan</td>
+                        <td>$2500</td>
+                        <td>7 Days</td>
+                    </tr>
+                    <tr>
+                        <td>Bali Bliss Retreat</td>
+                        <td>Bali, Indonesia</td>
+                        <td>$1500</td>
+                        <td>4 Days</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Travel Booking Form -->
+        <section>
+            <h2>Book Your Trip</h2>
+            <form action="#">
+                <!-- Name Input -->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <!-- Email Input -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <!-- Destination Dropdown -->
+                <label for="destination">Choose a Destination:</label>
+                <select id="destination" name="destination" required>
+                    <option value="paris">Paris</option>
+                    <option value="tokyo">Tokyo</option>
+                    <option value="bali">Bali</option>
+                </select><br><br>
+
+                <!-- Travel Class Radio Buttons -->
+                <fieldset>
+                    <legend>Travel Class:</legend>
+                    <label><input type="radio" name="class" value="economy" required> Economy</label><br>
+                    <label><input type="radio" name="class" value="business"> Business</label><br>
+                    <label><input type="radio" name="class" value="first-class"> First Class</label><br>
+                </fieldset><br>
+
+                <!-- Add-ons Checkboxes -->
+                <fieldset>
+                    <legend>Add-ons:</legend>
+                    <label><input type="checkbox" name="add-ons" value="insurance"> Insurance</label><br>
+                    <label><input type="checkbox" name="add-ons" value="meal-plan"> Meal Plan</label><br>
+                </fieldset><br>
+
+                <!-- Submit Button -->
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Contact us: info@travelbooking.com | Phone: 123-456-7890</p>
+        <p class="footer-links">
+            Follow us:
+            <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a>
+        </p>
+    </footer>
+</body>
+
+</html>
+
